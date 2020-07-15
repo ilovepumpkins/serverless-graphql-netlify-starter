@@ -3,6 +3,7 @@ const ApolloServer = require('apollo-server').ApolloServer
 const ApolloServerLambda = require('apollo-server-lambda').ApolloServer
 const { gql } = require('apollo-server-lambda');
 
+
 const typeDefs = gql`
     enum LogoTypeEnum {
         INITIALS
