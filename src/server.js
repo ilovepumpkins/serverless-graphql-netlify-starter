@@ -64,7 +64,7 @@ const associations = [
   [9, 'I'],
 ]
 
-export const basic_learning_path = {
+const basic_learning_path = {
   id: 'basic_learning_path',
   name: 'beginner',
   levels: associations.map(([number, letter]) => {
@@ -96,7 +96,7 @@ export const basic_learning_path = {
 
 const learning_paths = [basic_learning_path]
 
-export const resolvers = {
+const resolvers = {
   Query: {
     learning_paths: () => learning_paths,
   },
